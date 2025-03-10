@@ -1,34 +1,38 @@
-# Weather and Temperature Trends Analysis
+# **Traffic Accident Trends in Turkey**
 
-##  Project Overview
-This project aims to analyze historical weather data to identify trends in temperature and other weather patterns over time. By examining changes in temperature, precipitation, and seasonal variations, we can gain insights into potential climate shifts and anomalies.
+## **Motivation**
+Traffic accidents are a major issue in Turkey, causing thousands of injuries and fatalities every year. Understanding accident patterns can help improve road safety measures, influence policy decisions, and reduce accident rates. By analyzing past traffic data, we can identify high-risk areas, seasonal trends, and common causes of accidents.
 
-##  Motivation
-Weather patterns significantly impact daily life, agriculture, and climate discussions. Understanding long-term temperature trends can help in assessing climate change effects and seasonal variations.
+## **Data Source**
+This project uses publicly available datasets on traffic accidents in Turkey from official sources:
 
-##  Data Source
-- The dataset will be obtained from **Kaggle** (search for 'historical weather data') or **OpenWeather API** (for real-time and past weather data).
-- The dataset will include information on **temperature, humidity, precipitation, and wind speed**.
-- If additional data is needed, government meteorological agencies may provide climate statistics.
+1. **Türkiye İstatistik Kurumu (TÜİK) - Road Traffic Accident Statistics**  
+   - Annual accident data including injuries, fatalities, and causes.  
+   - [Dataset Link](https://data.tuik.gov.tr/Bulten/Index?p=Karayolu-Trafik-Kaza-Istatistikleri-2022-49513)  
 
-##  Planned Analysis
-1. **Data Collection & Cleaning**  
-   - Obtain weather data from selected sources.  
-   - Handle missing values and format timestamps correctly.  
-2. **Exploratory Data Analysis (EDA)**  
-   - Analyze long-term temperature trends and seasonal variations.  
-   - Identify anomalies such as extreme heat waves or cold spells.  
-3. **Data Visualization**  
-   - Line charts for temperature trends.  
-   - Histograms for seasonal variations.  
-   - Correlation plots between temperature and other weather factors.  
-4. **Statistical Analysis**  
-   - Compute averages, variance, and trends over the years.  
-   - Identify significant changes in temperature patterns.
+2. **Emniyet Genel Müdürlüğü - Traffic Accident Reports**  
+   - Detailed police-reported accident data with vehicle and driver information.  
+   - [Traffic Report Link](https://trafik.gov.tr/istatistikler37)  
 
-##  Expected Outcomes
-- Detect **warming or cooling trends** in the chosen region.  
-- Identify **seasonal variations** (e.g., are summers getting hotter? Are winters milder?).  
-- Analyze relationships between different weather conditions.  
+3. **Karayolları Genel Müdürlüğü (KGM) - Traffic Reports**  
+   - Information on road conditions, accident-prone locations, and infrastructure impact.  
+   - [KGM Reports](https://www.kgm.gov.tr/SitePages/KGM/Site.aspx)  
 
+## **Data Analysis**
+- Cleaning and standardizing accident data from multiple sources.
+- Identifying accident trends over time and by location.
+- Visualizing accident hotspots and seasonal variations.
+- Analyzing contributing factors like weather, road conditions, and speed limits.
+
+## **Findings**
+This section will summarize key insights after analysis, such as:
+- **Which cities and highways have the highest accident rates?**
+- **Are accidents more frequent in certain months or seasons?**
+- **How do speed limits and road conditions affect accidents?**
+- **Are road safety policies reducing accident rates?**
+
+## **Limitations and Future Work**
+- Some accidents might be underreported, affecting accuracy.
+- This study focuses on historical data; future work could involve predictive modeling.
+- Additional factors like driver behavior and traffic volume could be explored.
 
