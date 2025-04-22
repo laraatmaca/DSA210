@@ -24,12 +24,30 @@ To gain a comprehensive understanding of traffic accidents in Turkey, the datase
 - **Visualization**: Mapping accident hotspots and seasonal variations.
 - **Factor Analysis**: Examining the effects of weather, road conditions, and speed limits on accident rates.
 
-## **Findings**
-After analysis, key insights will be summarized, addressing questions such as:
-- **Which cities and highways have the highest accident rates?**
-- **Are accidents more frequent in certain months or seasons?**
-- **How do speed limits and road conditions affect accidents?**
-- **Are road safety policies reducing accident rates?**
+---
+
+## **Phase 2 – Data Analysis & Findings**
+
+### Monthly Trends
+Accidents and injuries increase significantly during the summer months (June, July, August). These months also correspond to the peak holiday season in Turkey.
+
+### Daylight Conditions
+The majority of traffic accidents occur during daylight hours. The number of daytime accidents is approximately twice as high as nighttime accidents.
+
+### Hypothesis Test 1: Summer vs. Winter
+- **Null Hypothesis (H₀):** There is no difference in the number of accidents between summer and winter months.
+- **Alternative Hypothesis (H₁):** There is a significant difference.
+- **Result:** p-value = 0.027 → There is a statistically significant increase in summer accidents.
+
+### Hypothesis Test 2: Daytime vs. Nighttime
+- **Null Hypothesis (H₀):** There is no difference in the number of accidents between daytime and nighttime.
+- **Alternative Hypothesis (H₁):** There is a significant difference.
+- **Result:** p-value = 0.000 → Daytime accidents are significantly more frequent.
+
+### Key Insight
+Traffic accidents in Turkey are heavily concentrated in summer months and daylight hours. This suggests the need for enhanced public awareness and control strategies during peak travel seasons.
+
+---
 
 ## **Limitations and Future Work**
 - Some accidents might be underreported, which could impact the accuracy of the findings.
