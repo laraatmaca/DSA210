@@ -16,11 +16,6 @@ This project utilizes publicly available datasets on traffic accidents in Turkey
    - Reports will be extracted and matched with TÜİK data using date, location, and severity metrics.  
    - [Traffic Report Link](https://trafik.gov.tr/istatistikler37)  
 
-3. **Karayolları Genel Müdürlüğü (KGM) - Traffic Reports**  
-   - Provides information on road conditions, accident-prone locations, and infrastructure impact.  
-   - Data will be merged based on location coordinates to identify correlations between road conditions and accident rates.  
-   - [KGM Reports](https://www.kgm.gov.tr/SitePages/KGM/Site.aspx)  
-
 ## **Data Integration & Analysis**
 To gain a comprehensive understanding of traffic accidents in Turkey, the datasets will be integrated as follows:
 - **Cleaning & Standardization**: Unifying formats, handling missing values, and ensuring consistency across sources.
