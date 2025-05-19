@@ -1,0 +1,28 @@
+## Phase 3 – Machine Learning Model
+
+In this phase, a Logistic Regression model was applied to predict whether a given traffic accident report would be classified as fatal (i.e., involving at least one death) or not.
+
+### Model Target
+- **Target Variable:** `is_fatal` (1 if `Deaths > 150`, else 0)
+
+### Input Features
+- Month  
+- Location (Urban or Non-Urban)  
+- Total Accidents, Fatal Accidents, Injury Accidents, Material Damage Accidents  
+- Injuries  
+- Driver Fault %, Pedestrian Fault %  
+- Vehicle Type  
+- Daylight Condition
+
+### Model & Evaluation
+- **Algorithm Used:** Logistic Regression  
+- **Encoding:** One-Hot Encoding for categorical features  
+- **Train-Test Split:** 70/30
+
+### Results
+- **Accuracy:** 1.00  
+- **Precision:** 1.00  
+- **Recall:** 1.00  
+- **F1-Score:** 1.00  
+
+> ⚠️ Note: Due to the small and imbalanced dataset, the perfect accuracy is likely overfitting and not generalizable. More data points and balanced class representation are needed for a reliable model.
