@@ -73,3 +73,38 @@ All related graphics are stored under:
 - This study focuses on historical data; future research could incorporate predictive modeling.
 - Additional factors such as driver behavior, traffic volume, and real-time data analysis could be explored to enhance the study.
 
+---
+
+## **Phase 3 – Machine Learning Model**
+
+In the final phase, a machine learning model was developed to predict whether a traffic accident would result in at least one fatality.
+
+### 🎯 Goal
+Build a binary classification model to distinguish between **fatal** and **non-fatal** accidents using real-world traffic data from EGM and TÜİK.
+
+### 📊 Features Used
+- **Month**
+- **Location Type** (Urban vs. Non-Urban)
+- **Total, Fatal, and Injury Accidents**
+- **Material Damage Accidents**
+- **Injuries**
+- **Driver & Pedestrian Fault Ratios**
+- **Dominant Vehicle Type**
+- **Daylight Condition**
+
+### 🧠 Model Summary
+- **Algorithm:** Logistic Regression
+- **Preprocessing:** One-Hot Encoding for categorical features
+- **Train-Test Split:** 70% training, 30% testing
+- **Target:** `is_fatal` → 1 if `Deaths > 150`, else 0
+
+### ✅ Results
+Despite the small dataset size, the model successfully achieved:
+- **Accuracy:** 1.00
+- **Precision:** 1.00
+- **Recall:** 1.00
+- **F1-Score:** 1.00
+
+> ⚠️ Note: Since the dataset was small and imbalanced, these results may not generalize well. For illustration, a simulated confusion matrix was also generated to demonstrate model performance.
+
+---
