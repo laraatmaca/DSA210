@@ -1,0 +1,7 @@
+Month,Location,Total_Accidents,Fatal_Accidents,Injury_Accidents,Material_Damage_Accidents,Deaths,Injuries,Driver_Fault,Pedestrian_Fault,Vehicle_Type,Daylight,is_fatal
+May,Urban,41000,1500,13000,18000,160,26000,87,10,Car,Day,1
+May,Non-Urban,9000,1200,2500,4500,180,4800,89,8,Car,Night,1
+Feb,Urban,35000,1400,12500,16500,140,24000,90,7,Car,Day,0
+Feb,Non-Urban,8000,1350,2700,4300,190,5000,91,6,Car,Night,1
+Dec,Urban,42000,1800,14000,19000,200,28000,88,9,Car,Day,1
+Dec,Non-Urban,8500,1700,2600,4400,230,5100,90,7,Car,Night,1
