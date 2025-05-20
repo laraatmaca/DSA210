@@ -138,11 +138,11 @@ Despite the small dataset size, the model successfully achieved:
 
 > ⚠️ Note: Since the dataset was small and imbalanced, these results may not generalize well. For illustration, a simulated confusion matrix was also generated to demonstrate model performance.
 
-![Confusion Matrix – Logistic Regression](confusion_matrix_logreg_simulated.png)
+![Confusion Matrix – Logistic Regression](Phase3_ML_Model/confusion_matrix_logreg_simulated.png)
 
 
 > The confusion matrix above shows a balanced simulation of the classification results. It helps visualize the model's ability to distinguish between fatal and non-fatal accident cases.
 
-📂 [Download the dataset used for training the ML model](traffic_accident_ml_dataset.csv)
+📂 [Download the dataset used for training the ML model](Phase3_ML_Model/traffic_accident_ml_dataset.csv)
 
 ---
