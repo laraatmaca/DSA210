@@ -92,11 +92,37 @@ Build a binary classification model to distinguish between **fatal** and **non-f
 - **Dominant Vehicle Type**
 - **Daylight Condition**
 
+### 🛠️ Preprocessing Steps
+- No missing values found.
+- Replaced ambiguous entries such as `' '`, `'unknown'`, `'?'` with `NaN` to confirm no hidden nulls.
+- Standardized numerical features using `StandardScaler`.
+- Applied One-Hot Encoding to categorical variables (`Month`, `Location`, `Vehicle_Type`, `Daylight`).
+- Final dataset consisted of 17 features.
+
 ### 🧠 Model Summary
 - **Algorithm:** Logistic Regression
 - **Preprocessing:** One-Hot Encoding for categorical features
 - **Train-Test Split:** 70% training, 30% testing
 - **Target:** `is_fatal` → 1 if `Deaths > 150`, else 0
+
+### 🔍 Target Variable
+- `is_fatal = 1` if `Deaths > 150`, else `0`
+
+### ⚙️ Algorithms Applied
+
+| Model                     | Accuracy | Precision | Recall | F1-Score |
+|---------------------------|----------|-----------|--------|----------|
+| Logistic Regression       | 1.00     | 1.00      | 1.00   | 1.00     |
+| Random Forest             | 1.00     | 1.00      | 1.00   | 1.00     |
+| K-Nearest Neighbors (KNN) | 1.00     | 1.00      | 1.00   | 1.00     |
+| Support Vector Machine    | 1.00     | 1.00      | 1.00   | 1.00     |
+
+> ⚠️ Note: These perfect scores are due to a **very small and imbalanced dataset**, which makes the models prone to **overfitting**. Thus, results are not generalizable.
+
+### 🧠 Model Insights
+- All models showed perfect results on the tiny test set, which included only one class (fatal accidents).
+- These scores are not realistic for broader predictions and reflect **overfitting** due to data imbalance and limited sample size.
+- To improve generalization, a larger and more balanced dataset should be used in future studies.
 
 ### ✅ Results
 Despite the small dataset size, the model successfully achieved:
@@ -104,6 +130,11 @@ Despite the small dataset size, the model successfully achieved:
 - **Precision:** 1.00
 - **Recall:** 1.00
 - **F1-Score:** 1.00
+
+### 📂 Supporting Artifacts
+- `traffic_accident_ml_dataset.csv`: Cleaned dataset used for training
+- `confusion_matrix_logreg_simulated.png`: Simulated confusion matrix illustration
+- Code files and preprocessing notebook are located under `Phase3_ML_Model/`
 
 > ⚠️ Note: Since the dataset was small and imbalanced, these results may not generalize well. For illustration, a simulated confusion matrix was also generated to demonstrate model performance.
 
