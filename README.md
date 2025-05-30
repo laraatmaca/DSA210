@@ -197,6 +197,10 @@ Despite the small dataset size, the model successfully achieved:
 
 > The confusion matrix above shows a balanced simulation of the classification results. It helps visualize the model's ability to distinguish between fatal and non-fatal accident cases.
 
+#### 📉 ROC Curve – Logistic Regression
+![ROC Curve](Phase3_ML_Model/roc_curve_logreg.png)
+
+
 📂 [Download the dataset used for training the ML model](Phase3_ML_Model/traffic_accident_ml_dataset.csv)
 
 ---
