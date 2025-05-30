@@ -192,3 +192,9 @@ Despite the small dataset size, the model successfully achieved:
 📂 [Download the dataset used for training the ML model](Phase3_ML_Model/traffic_accident_ml_dataset.csv)
 
 ---
+---
+
+### 🤖 AI Assistance Disclosure
+
+During the preparation of this project, AI tools such as ChatGPT were used selectively to improve the clarity and flow of written explanations in this report. All code, analysis, and visualizations were developed, tested, and verified by the author. AI assistance was limited to writing support and not for model building or decision-making.
+
