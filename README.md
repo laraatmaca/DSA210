@@ -74,6 +74,52 @@ All related graphics are stored under:
 - Additional factors such as driver behavior, traffic volume, and real-time data analysis could be explored to enhance the study.
 
 ---
+### 📊 TÜİK Data
+
+#### 🚗 Traffic Accidents by Vehicle Type (2022)
+![Vehicle Type Accidents](analysis_results/tuik/vehicle_type_accidents.png)
+
+#### 📅 Monthly Accidents and Injuries (2022)
+![Monthly Accidents](analysis_results/tuik/monthly_accidents.png)
+
+#### ⚠️ Fault Type Distribution (2022)
+![Fault Distribution](analysis_results/tuik/fault_distribution.png)
+
+#### 🌤️ Daylight Conditions
+![Daylight Conditions](analysis_results/tuik/daylight_conditions.png)
+
+#### 🗺️ City-Wise Accident Distribution
+![City Accidents](analysis_results/tuik/city_accidents.png)
+
+### 📊 EGM Data
+
+#### 🔧 Fault Causes in Accidents (2023)
+![EGM 2023 Faults](analysis_results/egm/egm_fault_causes_2023.png)
+
+#### 🔧 Fault Causes in Accidents (2024)
+![EGM 2024 Faults](analysis_results/egm/egm_fault_causes_2024.png)
+
+#### 🔧 Fault Causes in Accidents (Dec 2024)
+![EGM Dec Faults](analysis_results/egm/egm_fault_causes_2024_dec.png)
+
+#### 🚘 Vehicle Types in Accidents (May 2023)
+![Vehicle May](analysis_results/egm/egm_vehicle_types_may2023.png)
+
+#### 🚘 Vehicle Types in Accidents (Feb 2024)
+![Vehicle Feb](analysis_results/egm/egm_vehicle_types_feb2024.png)
+
+#### 🚘 Vehicle Types in Accidents (Dec 2024)
+![Vehicle Dec](analysis_results/egm/egm_vehicle_types_dec2024.png)
+
+#### 📍 Accident Types by Location (May 2023)
+![Location May](analysis_results/egm/egm_accident_types_by_location.png)
+
+#### 📍 Accident Types by Location (Feb 2024)
+![Location Feb](analysis_results/egm/egm_accident_types_by_location_feb2024.png)
+
+#### 📍 Accident Types by Location (Dec 2024)
+![Location Dec](analysis_results/egm/egm_accident_types_by_location_dec2024.png)
+
 
 ## **Phase 3 – Machine Learning Model**
 
