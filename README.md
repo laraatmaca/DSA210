@@ -20,10 +20,18 @@ This project utilizes publicly available datasets on traffic accidents in Turkey
 To gain a comprehensive understanding of traffic accidents in Turkey, the datasets will be integrated as follows:
 - **Cleaning & Standardization**: Unifying formats, handling missing values, and ensuring consistency across sources.
 - **Merging Data**: Accident reports will be enriched with road condition data by matching them based on location (city, highway, GPS coordinates) and time (year, month, day).
+
+  #### 🧩 Data Merging Example
+
+  To combine accident reports from EGM with contextual data from TÜİK, we used common keys such as `Month`, `City`, and `Location_Type`. After cleaning and aligning categorical values, the datasets were merged using the `merge()` function in pandas:
+
+  ```python
+  merged_df = pd.merge(egm_df, tuik_df, how='inner', on=['City', 'Month', 'Location_Type'])
+  ```
+
 - **Trend Identification**: Identifying accident trends over time and by location.
 - **Visualization**: Mapping accident hotspots and seasonal variations.
 - **Factor Analysis**: Examining the effects of weather, road conditions, and speed limits on accident rates.
-
 ---
 
 ## **Phase 2 – Data Analysis & Findings**
